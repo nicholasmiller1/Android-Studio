@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SplashScreenProject</string>
+    <string name="sentence_header">Type sentence:</string>
+    <string name="sentence_hint">Type here</string>
+</resources>

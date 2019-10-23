@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="94dp"
+        android:text="@string/bill_value"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="@string/edittext_hint"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewBill"
+        app:layout_constraintStart_toEndOf="@+id/textViewBill"
+        app:layout_constraintTop_toTopOf="@+id/textViewBill" />
+
+    <TextView
+        android:id="@+id/textViewTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/tip_amount"
+        app:layout_constraintEnd_toEndOf="@+id/textViewBill"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBill" />
+
+    <Spinner
+        android:id="@+id/spinnerTip"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewTip"
+        app:layout_constraintEnd_toEndOf="@+id/editTextBill"
+        app:layout_constraintStart_toStartOf="@+id/editTextBill"
+        app:layout_constraintTop_toTopOf="@+id/textViewTip" />
+
+    <TextView
+        android:id="@+id/textViewTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/total"
+        app:layout_constraintEnd_toEndOf="@+id/textViewTip"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTip" />
+
+    <TextView
+        android:id="@+id/textViewTotalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewTotal"
+        app:layout_constraintStart_toStartOf="@+id/spinnerTip"
+        app:layout_constraintTop_toTopOf="@+id/textViewTotal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

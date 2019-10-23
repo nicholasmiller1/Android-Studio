@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Currency Exchange</string>
+    <string name="usd">Initial Value (USD):</string>
+    <string name="euro">Converted Value (Euro):</string>
+    <string name="convert">Convert</string>
+    <string name="input_hint">Type value here</string>
+</resources>
