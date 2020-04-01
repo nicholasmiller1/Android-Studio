@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Login Screen</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="username">Username:</string>
+    <string name="username_hint">Enter username</string>
+    <string name="password">Password:</string>
+    <string name="password_hint">Enter password</string>
+    <string name="show_text">Show Password</string>
+    <string name="error_message_invalid">Invalid password input. Check the requirements by holding down on the question mark</string>
+    <string name="error_message_no_username">Username must be entered</string>
+    <string name="error_message_no_password">Password must be entered</string>
+    <string name="error_message_wrong_password">Username or Password is incorrect</string>
+    <string name="error_message_weak_password">Password too weak</string>
+    <string name="error_message_invalid_username">Username is invalid</string>
+    <string name="error_message_user_exists">That user already exists. Do you want to log in instead?</string>
+    <string name="logout">Logout and Save</string>
+    <string name="create_account">Account does not exist. Do you wish to create an account?</string>
+    <string name="tooltip">Must contain 8-16 characters, 1 lowercase, 1 uppercase, 1 digit, 1 symbol [!@#$%*?.]</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListView Quiz</string>
+    <string name="name_hint">Enter Name</string>
+    <string name="add">Add Player</string>
+</resources>

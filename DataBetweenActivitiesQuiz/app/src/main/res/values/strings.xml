@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Data Between Activities Quiz</string>
+    <string name="terms_button">Terms</string>
+    <string name="login_button">Login</string>
+    <string name="agree_button">Agree</string>
+    <string name="disagree_button">Disagree</string>
+    <string name="title_activity_terms">TermsActivity</string>
+    <string name="agreement_string">Agreement Code:</string>
+</resources>

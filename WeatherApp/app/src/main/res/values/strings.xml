@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="title_activity_weather">Weather</string>
+    <string name="high_temperature">High Temperature:</string>
+    <string name="low_temperature">Low Temperature:</string>
+    <string name="button_next">Next Day</string>
+    <string name="button_previous">Previous Day</string>
+    <string name="button_start">Back To Today</string>
+    <string-array name="weather_types">
+        <item>Cloudy</item>
+        <item>Rainy</item>
+        <item>Sunny</item>
+        <item>Snowy</item>
+        <item>Stormy</item>
+    </string-array>
+</resources>
